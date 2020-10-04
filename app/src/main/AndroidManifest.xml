@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.madminiproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="GiftMart"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme"
+        tools:replace="android:label"
+        android:hardwareAccelerated="false">
+
+        <activity android:name=".ItemUpdate" />
+        <activity android:name=".ViewShipPay" />
+        <activity android:name=".itemAdmin" />
+        <activity android:name=".ShippingUpdate" />
+        <activity android:name=".deletePromo" />
+        <activity android:name=".AddPromo" />
+        <activity android:name=".AdminPanel" />
+        <activity android:name=".Search" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".Myprofile" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OrderSummary" />
+        <activity android:name=".UpdateCart" />
+        <activity android:name=".ShopingCart" />
+        <activity android:name=".ItemUpdateDelete" />
+        <activity android:name=".AddItem">
+        </activity>
+        <activity android:name=".ItemDetails" />
+        <activity android:name=".itemDisplay" />
+        <activity android:name=".PurchaseConfirmation" />
+        <activity android:name=".PaymentDetails" />
+        <activity android:name=".ShippingDetails" />
+        <activity android:name=".MainActivity"/>
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
